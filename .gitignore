@@ -1,0 +1,23 @@
+# Ignorar node_modules (carpeta de dependencias de npm)
+node_modules/
+
+# Ignorar archivos de configuración de logs y sistema operativo
+*.log
+.DS_Store
+
+# Ignorar la carpeta de caché de Expo (si usas React Native con Expo)
+.expo/
+.expo-shared/
+
+# Ignorar carpetas de compilación (si usas TypeScript o Babel)
+dist/
+build/
+
+# Ignorar archivos de entorno (credenciales)
+.env
+.env.local
+
+# Ignorar configuración de Firebase
+
+src/services
+
